@@ -7,8 +7,8 @@ $classes =$classes ?? [];
 $matieres=$matieres ?? [];
 $periodes=$periodes ?? [];
 $moyennes=$moyennes ?? [];
-var_dump($periodes);
-die;
+// var_dump($periodes);
+// die;
 ?>
 
 <!DOCTYPE html>

@@ -11,6 +11,6 @@ class NoteController
 
         $periodes = $periodeModel->getAllPeriode();
 
-       // require_once dirname(__DIR__) . "/view/noteView.html.php";
+        require_once dirname(__DIR__) . "/view/noteView.html.php";
     }
 }
