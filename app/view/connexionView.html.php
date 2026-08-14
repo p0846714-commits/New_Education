@@ -549,7 +549,7 @@
 
     <div class="divider">ou avec vos identifiants</div>
 
-    <form onsubmit="return false;">
+    <form onsubmit=" return false;">
       <label class="field-label" for="email">Adresse email</label>
       <div class="input-wrap">
         <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

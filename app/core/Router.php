@@ -1,5 +1,8 @@
 <?php
 
+require_once dirname(__DIR__) . "/controller/authController.php";
+require_once dirname(__DIR__) . "/controller/noteController.php";
+
 class Router
 {
     public array $routes = [];

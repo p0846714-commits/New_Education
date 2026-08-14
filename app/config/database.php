@@ -74,7 +74,8 @@ class Database
     }
 
 
-    
+        //papa mamadou diouf
+
     public function getAllTable(
         string $tableName
     ): array {

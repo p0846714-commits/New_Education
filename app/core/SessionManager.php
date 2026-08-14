@@ -18,7 +18,7 @@ class Session
     {
         return $_SESSION[$key] ?? $default;
     }
-
+    //papa mamadou diouf
     public function unsetSession(string $key): void
     {
         unset($_SESSION[$key]);

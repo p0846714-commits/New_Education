@@ -295,7 +295,7 @@ $moyennes=$moyennes ?? [];
     <div class="select-wrap">
         <select id="classe" name="classe">
             <?php foreach ($classes as $classe) : ?>
-                <option value="<?php echo $classe['id'] ?> "> <?php echo $classe['nomclasse'] ?> </option>  
+                <option value="<?php echo $classe['id']?> "> <?php echo $classe['nomclasse'] ?> </option>  
             <?php endforeach; ?>
         </select>
     </div>
@@ -311,7 +311,7 @@ $moyennes=$moyennes ?? [];
 
             <?php foreach ($matieres as $matiere) : ?>
 
-                <option value="<?php echo $matiere['id'] ?> "> <?php echo $matiere['nommatiere'] ?> 
+                <option value="<?php echo $matiere['id']?> "> <?php echo $matiere['nommatiere'] ?> 
                 </option>
 
             <?php endforeach; ?>
@@ -325,10 +325,10 @@ $moyennes=$moyennes ?? [];
     <div class="field">
       <label for="periode">Période</label>
       <div class="select-wrap">
-        <select id="periode">
+        <select id="periode" name="periode_id">
                   <?php foreach ($periodes as $periode) : ?>
 
-          <option value="<?php echo $periode['id'] ?>" > <?php echo $periode['nomperiode'] ?></option>
+          <option value="<?php echo $periode['id']?>" > <?php echo $periode['nomperiode'] ?></option>
           
                   <?php endforeach; ?>
 
